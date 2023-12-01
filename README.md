@@ -59,6 +59,9 @@
 	AmazonS3FullAccess
 	IAMFullAccess 
 	AmazonVPCFullAccess
+        AmazonSQSFullAccess
+	AmazonEventBridgeFullAccess
+        AmazonRoute53FullAccess
 
 Then Attach IAM role to ubuntu server from Console Select KOPS Server --> Actions --> Instance Settings --> Attach/Replace IAM Role --> Select the role which
 You Created. --> Save.
